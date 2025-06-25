@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>parallax</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "jost";
+      }
+
+      h2 {
+        font-size: 64px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000;
+      }
+
+      p {
+        font-size: 20px;
+        color: #fff;
+      }
+
+      section {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRJw4DHrMr4HJjsvHIexWLudG1fptiyPf3sQ&s");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+      }
+
+      .section-2 {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("https://img.freepik.com/premium-photo/hindu-lord-shiv-god-mahadev-meditation-har-har-mahadev-shivratri-shiv-shankar_1004054-16215.jpg?w=360");
+      }
+      .section-3 {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7jI0s9W9UWHyD0i1v1yUsooJct1CUyDxFWA&s");
+        background-attachment: fixed;
+      }
+
+      .section-4 {
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBN8ITAR2hoRMJ9Uso8r8HUrpjNxBCU8iSEA&s");
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h2>Parallax</h2>
+        <p>THE BEST CSS COURSE </p>
+      </div>
+    </section>
+    <section class="section-2">
+      <div>
+        <h2>Shankar Sala</h2>
+        <p>THE BEST CSS COURSE</p>
+      </div>
+    </section>
+    <section class="section-3">
+      <div>
+        <h2>Parallax</h2>
+        <p>THE BEST CSS COURSE</p>
+      </div>
+    </section>
+    <section class="section-4">
+      <div>
+        <h2>Shankar Sala</h2>
+        <p>THE BEST CSS COURSE</p>
+      </div>
+    </section>
+  </body>
+</html>
