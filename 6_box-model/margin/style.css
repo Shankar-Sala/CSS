@@ -79,6 +79,27 @@ p {
   width: 1200px;
   background-color: #5e9de9;
   color: #fff;
+  /*? Four Values: `margin: top right bottom left;` */
+  /* margin: 200px 200px 200px 200px; */
+
+  /*? Three Values: margin: top right-left bottom; */
+/* margin: 50px 30px 60px; */
+
+/*? Two Values: margin: top-bottom right-left; */
+/* /* margin: 50px 30px; */
+
+/*? One Value: margin: value; */
+/* margin: 200px; */
+margin: auto;
+margin-bottom: 50px;
+}
+
+.section-two {
+  padding: 50px;
+  width: 1200px;
+  background-color: #08d83cd5;
+  margin: auto;
+  margin-top: 60px;
 }
 
 /** ------------------------------------------- -->
@@ -102,3 +123,4 @@ p {
 /* margin: 10px 20px 15px 30px; */
 
 /*? 3: How can you center-align an HTML element horizontally using margins? ⭐⭐⭐⭐⭐  */
+/* margin: auto; */
